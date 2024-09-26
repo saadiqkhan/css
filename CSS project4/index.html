@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"]
+        {
+            border: 2px solid green;
+        }
+        input[type="password"]
+        {
+border: 5px solid mediumaquamarine;
+        }
+        ul>li{
+            color: gold;
+        }
+        p+p{
+            color: green;
+        }
+        a:hover{
+            color: chocolate;
+        }
+li:nth-child(2){
+    color: chartreuse;
+}
+div:not(.class1){
+    border: 2px dashed darkcyan;
+}
+.class3::before{
+    content:"hello world" ;
+    color: blue;
+}
+.class4::after{
+    content:"hello" ;
+    }
+    p::first-letter{
+color: blue;
+    }
+            </style>
+</head>
+<body>
+    <!--advance selector-->
+    <!--attribute seiector-->
+    <input type="text" placeholder="enter name">
+    <input type="password" placeholder="enter password">
+<!--child selector-->
+<ul>
+    <li>home</li>
+    <li>school</li>
+</ul>
+<!--sibling selector-->
+<h1>title</h1>
+<p>this is a paragraph</p>
+<p>this is a paragraph</p>
+<!--pseudo classes-->
+<!--hover-->
+<a href="#">youtube</a>
+<!--nth child-->
+<ul>
+    <LI>item1</LI>
+    <LI>item2</LI>
+    <LI>item3</LI>
+</ul>
+<!--not selector-->
+<div class="class2">I am Saadiq</div>
+<div class="class1">I am 10 years old</div>
+<!--pseudo elements-->
+<!--before-->
+<div class="class3">before</div>
+<!--after-->
+<div class="class4">after</div>
+<!--first letter-->
+<P>this is a car</P>
+</body>
+</html>
